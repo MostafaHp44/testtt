@@ -1,7 +1,11 @@
- function setadd()
-{
-    let addres='1st.MahmoudRasllan'
-    alert(addres)
-    
+import React from "react";
+
+const GetAddress = () => {
+    return (
+         <div>
+           <h3 class="text-justify"> Giza,Embaba</h3>
+    </div> 
+    );
 }
-export default setadd;
+
+export default GetAddress;
